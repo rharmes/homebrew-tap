@@ -1,25 +1,25 @@
 class Roses < Formula
   desc "A TUI RSS reader, backed by Feedbin."
   homepage "https://github.com/rharmes/roses"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/rharmes/roses/releases/download/v0.1.0/roses-aarch64-apple-darwin.tar.xz"
-      sha256 "16003628bfbc75ce49adaedad821539a33f7bce13c502cf21265eec28381683f"
+      url "https://github.com/rharmes/roses/releases/download/v0.2.0/roses-aarch64-apple-darwin.tar.xz"
+      sha256 "0c5c1042b7f52abcddb91a85184e72e81607772b3d9082afcaadc44751b6faf3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rharmes/roses/releases/download/v0.1.0/roses-x86_64-apple-darwin.tar.xz"
-      sha256 "90f5ec82bc815254ed49f091d8002bc87d9dc35444d9eb8934f3a5f241e2a346"
+      url "https://github.com/rharmes/roses/releases/download/v0.2.0/roses-x86_64-apple-darwin.tar.xz"
+      sha256 "d63ca95c2ec09da551e01f7a3a367e2d9f5b4c92d434108ffee04e5733d30aa8"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/rharmes/roses/releases/download/v0.1.0/roses-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "ef70e0223e55b7a56663ce3c5c3d715e7110d1cd9f3be4ca1826cf292581595d"
+      url "https://github.com/rharmes/roses/releases/download/v0.2.0/roses-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "9db01b6d9bbd0e5502dbb89987bf7ba2e0d46a673fd3c389e83f500ad4eadce3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rharmes/roses/releases/download/v0.1.0/roses-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "afc30de595fc0e7435ec14d35857d0c520049a2a8d41920cddac922a06c51318"
+      url "https://github.com/rharmes/roses/releases/download/v0.2.0/roses-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "32834f14edcac255bb63f5ff886d73708a6d7acb1119db3cd08ef36af6998d19"
     end
   end
   license "MIT"
